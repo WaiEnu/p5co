@@ -15,7 +15,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item1'"
             >
-              Item1
+              #1
             </a>
           </li>
           <li
@@ -29,7 +29,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item2'"
             >
-              Item2
+              #2
             </a>
           </li>
           <li
@@ -43,7 +43,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item3'"
             >
-              Item3
+              #3
             </a>
           </li>
           <li
@@ -57,7 +57,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item4'"
             >
-              Item4
+              #4
             </a>
           </li>
           <li
@@ -71,7 +71,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item5'"
             >
-              Item5
+              #5
             </a>
           </li>
           <li
@@ -85,7 +85,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item6'"
             >
-              Item6
+              #6
             </a>
           </li>
           <li
@@ -99,7 +99,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item7'"
             >
-              Item7
+              #7
             </a>
           </li>
           <li
@@ -113,7 +113,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item8'"
             >
-              Item8
+              #8
             </a>
           </li>
           <li
@@ -127,7 +127,7 @@
               class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal"
               @click="currentTab = 'Item9'"
             >
-              Item9
+              #9
             </a>
           </li>
         </ul>
