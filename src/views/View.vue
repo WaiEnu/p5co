@@ -139,7 +139,7 @@
           >
             <component
               :is="currentTab"
-              class="p-0 w-full h-full flex-center items-center"
+              class="p-0 m-auto w-full h-full flex-center items-center"
             ></component>
           </div>
         </div>
