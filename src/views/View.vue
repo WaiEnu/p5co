@@ -132,12 +132,12 @@
           </li>
         </ul>
         <div
-          class="relative flex flex-col min-w-0 bg-gray-700 break-words w-full mb-6 shadow-lg rounded"
+          class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded glass-container"
         >
-          <div class="px-4 py-5 flex-auto">
-            <div class="tab-content tab-space">
-              <component :is="currentTab"></component>
-            </div>
+          <div
+            class="px-4 py-5 w-full h-full tab-content tab-space flex-center items-center"
+          >
+            <component :is="currentTab"></component>
           </div>
         </div>
       </div>
@@ -179,3 +179,21 @@ export default defineComponent({
   },
 });
 </script>
+<style>
+.glass-container {
+  width: 700px;
+  height: 375px;
+  color: rgb(215, 221, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(12px);
+  background-color: rgba(64, 220, 220, 0.04);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 4px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 4px rgba(40, 40, 40, 0.35) solid;
+  border-right: 4px rgba(40, 40, 40, 0.35) solid;
+}
+</style>
