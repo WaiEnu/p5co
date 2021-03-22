@@ -137,7 +137,10 @@
           <div
             class="px-4 py-5 w-full h-full tab-content tab-space flex-center items-center"
           >
-            <component :is="currentTab"></component>
+            <component
+              :is="currentTab"
+              class="p-0 w-full h-full flex-center items-center"
+            ></component>
           </div>
         </div>
       </div>
