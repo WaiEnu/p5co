@@ -23,7 +23,7 @@ export type Bubble = {
 };
 
 export default defineComponent({
-  name: "Item1",
+  name: "Item2",
   props: {},
   mounted() {
     const sketch = (p: p5) => {
