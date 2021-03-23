@@ -174,6 +174,7 @@ export default defineComponent({
   display: grid;
   justify-items: center;
   align-items: center;
+  padding: 0 !important;
 }
 #calculator {
   height: 100%;

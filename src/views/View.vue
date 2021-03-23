@@ -135,11 +135,11 @@
           class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded glass-container"
         >
           <div
-            class="px-4 py-5 w-full h-full tab-content tab-space flex-center items-center"
+            class="p-0 w-full h-full tab-content tab-space flex-center items-center"
           >
             <component
               :is="currentTab"
-              class="p-0 m-auto w-full h-full flex-center items-center"
+              class="px-4 py-5 m-auto w-full h-full flex-center items-center"
             ></component>
           </div>
         </div>
