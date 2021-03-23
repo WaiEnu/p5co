@@ -171,14 +171,11 @@ export default defineComponent({
 </script>
 <style scoped>
 #item9 {
-  display: flex;
+  display: grid;
   justify-items: center;
   align-items: center;
 }
 #calculator {
-  display: grid;
-  justify-items: center;
-  align-items: center;
   height: 100%;
   font-family: sans-serif;
   color: #222;
