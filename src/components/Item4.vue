@@ -27,7 +27,7 @@ export default defineComponent({
   },
 });
 </script>
-<style>
+<style scoped>
 canvas {
   margin: 0 auto;
 }
