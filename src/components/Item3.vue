@@ -12,8 +12,4 @@ export default defineComponent({
   props: {},
 });
 </script>
-<style>
-canvas {
-  margin: 0 auto;
-}
-</style>
+<style></style>
